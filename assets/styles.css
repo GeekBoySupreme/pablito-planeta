@@ -1,8 +1,9 @@
-.top_banner {
+body {
     background-image: url("img/background.gif");
     background-repeat: repeat;
     background-size: contain;
-    width: 100%;
-    height: 100%;
 }
 
+.picture_block {
+    width: 100%;
+}
