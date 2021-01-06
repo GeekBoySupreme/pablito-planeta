@@ -1,9 +1,29 @@
 body {
     background-image: url("img/background.gif");
     background-repeat: repeat;
-    background-size: contain;
+    background-size: 770px;
+    overflow: hidden;
 }
 
 .picture_block {
-    width: 100%;
+    width: 145%;
+    position: relative;
+    top: -30px;
+    left: 10px;
+}
+
+.big_text {
+    font-family: 'Jost', sans-serif;
+    font-size: 110px;
+    font-weight: 800;
+    color: rgb(0, 0, 80);
+    margin: 0 auto;
+}
+
+.image_container {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
