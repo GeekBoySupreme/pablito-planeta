@@ -4,15 +4,16 @@ body {
     background-image: url("img/background.gif");
     background-repeat: repeat;
     background-size: 770px;
-    overflow: hidden;
+    /* overflow: hidden; */
 
     font-family: 'Nunito', sans-serif!important;
 }
 
 .picture_block {
-    width: 135%;
+    width: 125%;
     position: relative;
     bottom: -70px;
+    left: -15px;
 }
 
 .big_text {
@@ -47,3 +48,49 @@ body {
 .card_zodiac_container p {
     font-size: 18px;
 }
+
+.zodiac_sign {
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 0px 6px #000741;
+    border: none;
+    color: rgb(3, 66, 129);
+    font-size: 17px;
+
+    margin-right: 10px;
+    margin-bottom: 15px;
+    transition: all 0.2s ease;
+}
+
+.zodiac_sign:hover {
+    background-color: rgb(255, 61, 168);
+    color: white;
+} 
+
+.zodiac_sign:active {
+    transform: translate(0px, 6px);
+    box-shadow: 0px 0px;
+    outline: none;
+}
+
+.zodiac_sign:focus {
+    outline: none;
+}
+
+
+
+
+  /*------- Scrollbar --------------*/
+  body::-webkit-scrollbar {
+    width: 0.6rem!important;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #bebebe!important;
+    border-radius: 50px;
+  }
