@@ -252,6 +252,60 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
 
     theme: "pink",
   },
+  {
+    name: "libra",
+    sign: "⚖️ Libra",
+    nickname: "the Scales",
+    description:
+      "Yo Libra, just hold on a bit until we let the spirits flow and describe your future.",
+    element: "Air",
+    amulet: "Enamel Pin",
+    amulet_link: "enamel_pin",
+    color: "Peacock Blue",
+    strength: "Adventurous. Lavish. Irresistible.",
+    opportunities: "Indecisive. Self-Pitying. Non-Confrontational.",
+    video: "",
+    font: "The bold and beautiful, Space Mono",
+    font_link: "font-family: '" + "Space Mono" + "', monospace;",
+
+    theme: "twilight",
+  },
+  {
+    name: "scorpio",
+    sign: "🦂 Scorpio",
+    nickname: "Scorpion",
+    description:
+      "Yo Scorpio, just hold on a bit until we let the spirits flow and describe your future.",
+    element: "Water",
+    amulet: "A book on Accessibility",
+    amulet_link: "access_book",
+    color: "Cherry Pop",
+    strength: "Determined. Self-reliant. Powerful. Wise. Magnetic",
+    opportunities: "Compulsive. Secretive. Jealous/resentful",
+    video: "",
+    font: "The calligraphic and elegant, Eczar",
+    font_link: "font-family: '" + "Eczar" + "', serif;",
+
+    theme: "aqua",
+  },
+  {
+    name: "saggitarius",
+    sign: "🏹 Saggitarius",
+    nickname: "the Archer",
+    description:
+      "Yo Saggitarius, just hold on a bit until we let the spirits flow and describe your future. Btw, how's your mate Orion?",
+    element: "Fire",
+    amulet: "Big Wireless Headphones",
+    amulet_link: "headphones",
+    color: "Spicy Mustard",
+    strength: "Open-minded. Achiever. Loving.",
+    opportunities: "Insensitive. Cold. Too optimistic.",
+    video: "",
+    font: "The humanist and traditional, Proza Libre",
+    font_link: "font-family: '" + "Proza Libre" + "', sans-serif;",
+
+    theme: "warm",
+  },
 ];
 
 
