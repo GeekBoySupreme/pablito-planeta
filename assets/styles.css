@@ -45,6 +45,12 @@ body {
     color: white;
 }
 
+.card_zodiac_op {
+    padding: 30px 30px;
+    margin-top: 40px;
+    border-radius: 18px;
+}
+
 .card_zodiac_container p {
     font-size: 18px;
 }
