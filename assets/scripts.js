@@ -36,9 +36,9 @@ async function showZodiac(sign) {
       database[index].color +
       '</span></h3>\
                                     <br />\
-                                    <h3 class="other_content"><span class="color_tag"  style="font-family : ' +
+                                    <h3 class="other_content"><span class="color_tag"  style="' +
       database[index].font_link +
-      ', sans-serif;">' +
+      '">' +
       database[index].font +
       '</span></h3>\
                                     </div >\
@@ -94,7 +94,7 @@ var database = [
     opportunities: "Stubborn. Perfectionist.",
     video: "https://www.instagram.com/p/CJpHNCOA8o_/",
     font: "The jolly grotesque, Chivo",
-    font_link: "'" + "Chivo" + "'",
+    font_link: "font-family: '" + "Chivo" + "', sans-serif;",
 
     theme: "warm",
   },
@@ -113,7 +113,7 @@ var database = [
     opportunities: "Unpredictable. Detached. Rebel.",
     video: "https://www.instagram.com/p/CJoL8NIg3hk",
     font: "The playful but profound, Karla",
-    font_link: "'" + "Karla" + "'",
+    font_link: "font-family: '" + "Karla" + "', sans-serif;",
 
     theme: "aqua",
   },
@@ -133,9 +133,124 @@ Pero, bebé, you have to keep focus, not be in the clouds as much, and say yes t
     opportunities: "Escapist. Lives on the clouds. Weak-willed.",
     video: "https://www.instagram.com/p/CJq4EJ-gR0E/",
     font: "The energetic and curvy, Rubik",
-    font_link: "'" + "Rubik" + "'",
+    font_link: "font-family: '" + "Rubik" + "', sans-serif;",
 
     theme: "aqua",
+  },
+  {
+    name: "aries",
+    sign: "🐑 Aries",
+    nickname: "the Ram",
+    description:
+      "Aries, my little lamb, let’s do this.\
+This year has so many adventures for you—with your energy, you'll be creating like crazy, starting so many new things.\
+Pero, cariño, slow down a bit, I know you just want to launch your design, but you first have to talk to your user.",
+    element: "Fire",
+    amulet: "Acrylic Markers",
+    amulet_link: "acrylic_markers",
+    color: "Tiger Fire",
+    strength: "Brave. Independent. Assertive.",
+    opportunities: "Selfish. Impulsive. Impatient.",
+    video: "https://www.instagram.com/p/CJojWpBgGoU/",
+    font: "Classic & modern Playfair Display",
+    font_link: "font-family: '" + "Playfair Display" + "', serif;",
+
+    theme: "twilight",
+  },
+  {
+    name: "taurus",
+    sign: "🐃 Taurus",
+    nickname: "the Bull",
+    description:
+      "Taurus, my big Bull, just hold on a bit until we let the spirits flow and describe your future.",
+    element: "Fire",
+    amulet: "Blurred Backgrounds",
+    amulet_link: "blurred_bg",
+    color: "Banana Gold",
+    strength: "Good taste. Patient, reliable. Persistent.",
+    opportunities: "Possesive/Jealous. Inflexible.",
+    video: "",
+    font: "The quirky & sexy, Work Sans",
+    font_link: "font-family: '" + "Work Sans" + "', sans-serif;",
+
+    theme: "warm",
+  },
+  {
+    name: "gemini",
+    sign: "👫 Gemini",
+    nickname: "the Twins",
+    description:
+      "Gemini, my Twins, just hold on a bit until we let the spirits flow and describe your future.",
+    element: "Air",
+    amulet: "Powerful Data visualizations",
+    amulet_link: "data_viz",
+    color: "Berry Fushia",
+    strength: "Dynamic. Many talents. Likes games. Youthful. Lively",
+    opportunities:
+      "Nervous. Tense. Devious. Scheming. Manipulative. Mischievous. Two-faced.",
+    video: "",
+    font: "The joyful and fancy, Montserrat",
+    font_link: "font-family: '" + "Montserrat" + "', sans-serif;",
+
+    theme: "pink",
+  },
+  {
+    name: "cancer",
+    sign: "🦀 Cancer",
+    nickname: "the Crab",
+    description:
+      "Mi cangrejito, let's go under the sea.\
+I see tremendous opportunities for you this year, and you'll be cautious and a/b test to choose the ones that are best for you.\
+\
+But, Tesoro, we gotta talk about your mood. You can't be overly emotional about your designs and cling to every little pixel. ",
+    element: "Water",
+    amulet: "Minimal Desk Organizer",
+    amulet_link: "desk_org",
+    color: "Sandy Bronze",
+    strength:
+      "Sensitive. Practical. Cautious. Imaginative. Intuitive. Emotional.",
+    opportunities: "Clingy, touchy and moody. Overemotional. Unable to let go.",
+    video: "https://www.instagram.com/p/CJtR3Hmgnf5/",
+    font: "The pragmatic and flawless, Inter",
+    font_link: "font-family: '" + "Inter" + "', sans-serif;",
+
+    theme: "warm",
+  },
+  {
+    name: "leo",
+    sign: "🦁 Leo",
+    nickname: "the Lion",
+    description:
+      "Leo, my lion, just hold on a bit until we let the spirits flow and describe your future.",
+    element: "Fire",
+    amulet: "Gradient Jigsaw Puzzle",
+    amulet_link: "jigsaw_puzzle",
+    color: "Tangerine Orange",
+    strength: "Creative. Popular. Faithful. Broad-minded. Generous.",
+    opportunities: "Egocentric. Too proud. Bossy. Dogmatic. Intolerant.",
+    video: "https://www.instagram.com/p/CJtR3Hmgnf5/",
+    font: "The friendly Roboto Slab",
+    font_link: "font-family: '" + "Roboto Slab" + "', sans-serif;",
+
+    theme: "twilight",
+  },
+  {
+    name: "virgo",
+    sign: "👧 Virgo",
+    nickname: "the Virgin",
+    description:
+      "Virgo, just hold on a bit until we let the spirits flow and describe your future.",
+    element: "Earth",
+    amulet: "Instant Film Camera",
+    amulet_link: "instant_camera",
+    color: "Naked Peach",
+    strength: "Successful. Creative. Likes to please.",
+    opportunities: "Obsessive, overcritical and perfectionist",
+    video: "",
+    font: "The geometric & pure, Poppins",
+    font_link: "font-family: '" + "Poppins" + "', sans-serif;",
+
+    theme: "pink",
   },
 ];
 

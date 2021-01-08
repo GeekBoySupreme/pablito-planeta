@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?&family=Chivo&family=Karla&family=Rubik&family=Nunito:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?&family=Chivo&family=Karla&family=Rubik&family=Playfair+Display:wght@500&family=Montserrat&family=Inter&family=Roboto&family=Poppins+Slab&family=Work+Sans:wght@500&family=Nunito:wght@700;800;900&display=swap');
 
 body {
     background-image: url("img/background.gif");
@@ -142,6 +142,7 @@ body {
     padding: 5px 20px;
     border-radius: 50px;
     font-weight: 800;
+    white-space: nowrap;
 }
 
 .color_tag {
@@ -150,6 +151,7 @@ body {
     padding: 5px 20px;
     border-radius: 50px;
     font-weight: 800;
+    white-space: nowrap;
 }
 
 .fa-long-arrow-alt-right {
