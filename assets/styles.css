@@ -49,6 +49,7 @@ body {
     padding: 30px 30px;
     margin-top: 40px;
     border-radius: 18px;
+    background-color: rgb(0, 108, 216);
 }
 
 .card_zodiac_container p {
@@ -82,6 +83,47 @@ body {
 
 .zodiac_sign:focus {
     outline: none;
+}
+
+
+
+.big_text_card {
+    font-family: 'Nunito', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+.nickname_text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+.other_content {
+    font-weight: 900;
+}
+
+.description_content {
+    font-weight: 800;
+}
+
+.amulet_img {
+    width: 100px;
+    transform: rotate(20deg);
+    margin: 20px;
+}
+
+.on_card_img {
+    width: 450px!important;
+    position: absolute;
+    bottom: 0px!important;
+    right: 30px;
+}
+
+#result_container {
+    display: none;
 }
 
 
