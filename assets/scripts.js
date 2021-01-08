@@ -5,12 +5,12 @@ function showZodiac(sign) {
 
 
     var html =
-      '<div class="row zodiac_content" id="zodiac_content"  style="padding-right: 0;">\
+      '<div id="zodiac_content">\
                     <div class="col-lg-12">\
                         <div class="card_zodiac_op">\
                             <div class="row">\
                                 <div class="col-lg-6">\
-                                    <h3 class="big_text_card">🐐 Capricorn</h3>\
+                                    <h3 class="big_text_card">🐐Capricorn</h3>\
                                     <h3 class="nickname_text">(nickname : Hello)</h3>\
                                     <br />\
                                     <h3 class="description_content">Mi cangrejito, lets go under the sea.\
@@ -30,7 +30,7 @@ function showZodiac(sign) {
                                     <br />\
                                     <h3 class="other_content"> Opportunities : <span class="element_tag">Earth</span></h3>\
                                     <br/>\
-                                    <h3 class="other_content"><span class="element_tag">See on Instagram</span></h3>\
+                                    <h3 class="other_content"><span class="element_tag"><i class="fab fa-instagram"></i><i class="fas fa-long-arrow-alt-right"></i></span></h3>\
                                     <img class="on_card_img" src="assets/img/Halfface.svg"/>\
                                 </div>\
                             </div>\
