@@ -5,7 +5,7 @@ function showZodiac(sign) {
 
 
     var html =
-      '<div class="row zodiac_content" id="zodiac_content">\
+      '<div class="row zodiac_content" id="zodiac_content"  style="padding-right: 0;">\
                     <div class="col-lg-12">\
                         <div class="card_zodiac_op">\
                             <div class="row">\
@@ -25,17 +25,18 @@ function showZodiac(sign) {
 \
                                 <div class="col-lg-6">\
                                     <h3 class="other_content"><img class="amulet_img" src="assets/img/Ball.svg"/> Amulet : <span class="element_tag">Blah Balh</span></h3>\
+                                    <br />\
                                     <h3 class="other_content"> Your strengths :  <span class="element_tag">Earth</span></h3>\
                                     <br />\
                                     <h3 class="other_content"> Opportunities : <span class="element_tag">Earth</span></h3>\
                                     <br/>\
                                     <h3 class="other_content"><span class="element_tag">See on Instagram</span></h3>\
+                                    <img class="on_card_img" src="assets/img/Halfface.svg"/>\
                                 </div>\
                             </div>\
                         </div>\
                     </div>\
-                </div>\
-                <img class="on_card_img" src="assets/img/Halfface.svg"/>'; 
+                </div>'; 
     
     document.getElementById("result_container").innerHTML = html;
     document.getElementById("intro_panel").style.display = "none";
