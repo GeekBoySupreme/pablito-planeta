@@ -1,6 +1,6 @@
-function showZodiac(sign) {
+async function showZodiac(sign) {
 
-    var index = getIndex(sign);
+    var index = await getIndex(sign);
     console.log(sign);
 
 
@@ -80,6 +80,7 @@ function showZodiac(sign) {
 
 var database = [
   {
+    name: "capricorn",
     sign: "🐐 Capricorn",
     nickname: "the Goat",
     description:
@@ -98,11 +99,12 @@ var database = [
     theme: "warm",
   },
   {
+    name: "aquarius",
     sign: "🌊 Aquarius",
     nickname: "Water bearer",
     description:
       "Aquarius, bebé, fly with me.\
-    This year, you're going to be a star because you are someone who sets the trends and innovates with your creativity.",
+    This year, you're going to be a star because you are someone who sets the trends and innovates with your creativity.Pero, cariño, you have to listen to your team too, I know you're always leading a revolución, but you might learn a thing or two if you bring others.",
     element: "Air",
     amulet: "Glossy 3D Illustrations",
     amulet_link: "glossy_3d_illustration",
@@ -115,14 +117,36 @@ var database = [
 
     theme: "aqua",
   },
+  {
+    name: "pisces",
+    sign: "🐠 Pisces",
+    nickname: "the Fish",
+    description:
+      "Pisces, my little fish, let's swim.\
+In 2021 the planets align, so your imagination can run wild, and with your kindness, you will design with compassion.\
+Pero, bebé, you have to keep focus, not be in the clouds as much, and say yes to everyone. So, concentrate, but keep being a dreamer.",
+    element: "Water",
+    amulet: "Parallax Scroll Animations",
+    amulet_link: "parallax_scroll_animation",
+    color: "Poolside Turquoise",
+    strength: "Selfless. Imaginative. Passionate.",
+    opportunities: "Escapist. Lives on the clouds. Weak-willed.",
+    video: "https://www.instagram.com/p/CJq4EJ-gR0E/",
+    font: "The energetic and curvy, Rubik",
+    font_link: "'" + "Rubik" + "'",
+
+    theme: "aqua",
+  },
 ];
 
 
-function getIndex(string) {
+async function getIndex(string) {
     var flag = 0;
     for (var i = 0; i < database.length; i++) {
-        if (string == database[i].sign)
+        if (string == database[i].name) {
             flag = i;
+        }
+            
     }
 
     return flag;
