@@ -46,15 +46,15 @@ async function showZodiac(sign) {
                                 <div class="col-lg-6">\
                                     <h3 class="other_content"><img class="amulet_img" src="assets/img/' +
       database[index].amulet_link +
-      '.svg"/> Amulet : <span>' +
+      '.svg"/> Amulet : <span class="element_tag">' +
       database[index].amulet +
       '</span></h3>\
                                     <br />\
-                                    <h3 class="other_content"><span>Your strengths :  </span><span>' +
+                                    <h3 class="other_content"><span>Strengths :  </span><span>' +
       database[index].strength +
       '</span></h3>\
                                     <br />\
-                                    <h3 class="other_content"><span>Opportunities : </span><span>' +
+                                    <h3 class="other_content"><span>Weaknesses : </span><span>' +
       database[index].opportunities +
       '</span></h3>\
                                     <br/>\

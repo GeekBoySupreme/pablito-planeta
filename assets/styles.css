@@ -118,7 +118,6 @@ body {
 
 .amulet_img {
     width: 80px;
-    transform: rotate(20deg);
     margin: 20px;
     transition: all 0.2s ease;
 }
