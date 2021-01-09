@@ -268,7 +268,7 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
     font: "The bold and beautiful, Space Mono",
     font_link: "font-family: '" + "Space Mono" + "', monospace;",
 
-    theme: "twilight",
+    theme: "pink",
   },
   {
     name: "scorpio",

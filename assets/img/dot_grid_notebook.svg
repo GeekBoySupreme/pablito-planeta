@@ -1,46 +1,9 @@
-<svg width="271" height="141" viewBox="0 0 271 141" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="139" height="141" fill="#145FCF"/>
-<rect x="24" width="36" height="40" fill="#FCAA3D"/>
-<circle cx="23.5" cy="43.5" r="3.5" fill="white"/>
-<circle cx="60.5" cy="43.5" r="3.5" fill="white"/>
-<rect x="68" width="36" height="40" fill="#FCAA3D"/>
-<circle cx="67.5" cy="43.5" r="3.5" fill="white"/>
-<circle cx="104.5" cy="43.5" r="3.5" fill="white"/>
-<rect x="20" y="94" width="36" height="40" fill="#FCAA3D"/>
-<circle cx="19.5" cy="137.5" r="3.5" fill="white"/>
-<circle cx="56.5" cy="137.5" r="3.5" fill="white"/>
-<rect x="64" y="94" width="36" height="40" fill="#FCAA3D"/>
-<circle cx="63.5" cy="137.5" r="3.5" fill="white"/>
-<circle cx="100.5" cy="137.5" r="3.5" fill="white"/>
-<rect x="48" y="47" width="36" height="40" fill="#FCAA3D"/>
-<circle cx="47.5" cy="90.5" r="3.5" fill="white"/>
-<circle cx="84.5" cy="90.5" r="3.5" fill="white"/>
-<rect x="92" y="47" width="36" height="40" fill="#FCAA3D"/>
-<circle cx="91.5" cy="90.5" r="3.5" fill="white"/>
-<circle cx="128.5" cy="90.5" r="3.5" fill="white"/>
-<rect x="4" y="47" width="36" height="40" fill="#FCAA3D"/>
-<circle cx="3.5" cy="90.5" r="3.5" fill="white"/>
-<circle cx="40.5" cy="90.5" r="3.5" fill="white"/>
-<rect x="132" width="139" height="141" fill="#616161"/>
-<rect x="156" width="36" height="40" fill="#FFDCAD"/>
-<circle cx="155.5" cy="43.5" r="3.5" fill="white"/>
-<circle cx="192.5" cy="43.5" r="3.5" fill="white"/>
-<rect x="200" width="36" height="40" fill="#FFDCAD"/>
-<circle cx="199.5" cy="43.5" r="3.5" fill="white"/>
-<circle cx="236.5" cy="43.5" r="3.5" fill="white"/>
-<rect x="152" y="94" width="36" height="40" fill="#FFDCAD"/>
-<circle cx="151.5" cy="137.5" r="3.5" fill="white"/>
-<circle cx="188.5" cy="137.5" r="3.5" fill="white"/>
-<rect x="196" y="94" width="36" height="40" fill="#FFDCAD"/>
-<circle cx="195.5" cy="137.5" r="3.5" fill="white"/>
-<circle cx="232.5" cy="137.5" r="3.5" fill="white"/>
-<rect x="180" y="47" width="36" height="40" fill="#FFDCAD"/>
-<circle cx="179.5" cy="90.5" r="3.5" fill="white"/>
-<circle cx="216.5" cy="90.5" r="3.5" fill="white"/>
-<rect x="224" y="47" width="36" height="40" fill="#FFDCAD"/>
-<circle cx="223.5" cy="90.5" r="3.5" fill="white"/>
-<circle cx="260.5" cy="90.5" r="3.5" fill="white"/>
-<rect x="136" y="47" width="36" height="40" fill="#FFDCAD"/>
-<circle cx="135.5" cy="90.5" r="3.5" fill="white"/>
-<circle cx="172.5" cy="90.5" r="3.5" fill="white"/>
+<svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M34.3914 26C34.3914 28.209 32.6004 30 30.3914 30H4.39142C2.18242 30 0.391418 28.209 0.391418 26V6.313C0.391418 4.104 6.18242 0 8.39142 0H29.0164C32.1104 0 34.3914 2.312 34.3914 5.375V26Z" fill="#292F33"/>
+<path d="M32.3914 30C32.3914 32.209 30.6004 34 28.3914 34H6.39142C4.18242 34 2.39142 32.209 2.39142 30V6C2.39142 1.881 2.37042 2 7.39142 2H28.3914C30.6004 2 32.3914 3.791 32.3914 6V30Z" fill="#CCD6DD"/>
+<path d="M30.3914 31C30.3914 32.657 29.0484 34 27.3914 34H3.39142C1.73442 34 0.391418 32.657 0.391418 31V7C0.391418 5.343 1.73442 4 3.39142 4H27.3914C29.0484 4 30.3914 5.343 30.3914 7V31Z" fill="#E1E8ED"/>
+<path d="M30.3914 32C30.3914 34.209 28.6004 36 26.3914 36H5.39142C3.18242 36 1.39142 34.209 1.39142 32V10C1.39142 7.791 3.18242 6 5.39142 6H26.3914C28.6004 6 30.3914 7.791 30.3914 10V32Z" fill="#292F33"/>
+<path d="M28.3914 32C28.3914 34.209 26.6004 36 24.3914 36H5.39142C3.18242 36 1.39142 34.209 1.39142 32V12C1.39142 9.791 3.18242 8 5.39142 8H24.7264C26.9354 8 28.3914 9.456 28.3914 11.665V32Z" fill="#66757F"/>
+<path d="M5.39142 6C3.70342 6 3.66042 4.078 4.39142 3.25C5.22342 2.309 6.51642 2 8.82942 2H10.3914V0H7.67242C3.70342 0 0.391418 2.5 0.391418 5.375V32C0.391418 34.209 2.18242 36 4.39142 36H6.39142V6H5.39142Z" fill="#292F33"/>
+<path d="M6.39142 8H9.39142V12H6.39142V8ZM13.3914 8H17.3914V12H13.3914V8ZM25.3914 8.056C25.1774 8.025 24.9584 8 24.7264 8H21.3914V12H25.3914V8.056ZM17.3914 12H21.3914V16H17.3914V12ZM25.3914 12H28.3914V16H25.3914V12ZM9.39142 12H13.3914V16H9.39142V12ZM6.39142 16H9.39142V20H6.39142V16ZM13.3914 16H17.3914V20H13.3914V16ZM21.3914 16H25.3914V20H21.3914V16ZM17.3914 20H21.3914V24H17.3914V20ZM25.3914 20H28.3914V24H25.3914V20ZM9.39142 20H13.3914V24H9.39142V20ZM6.39142 24H9.39142V28H6.39142V24ZM13.3914 24H17.3914V28H13.3914V24ZM21.3914 24H25.3914V28H21.3914V24ZM6.39142 32H9.39142V36H6.39142V32ZM13.3914 32H17.3914V36H13.3914V32ZM21.3914 36H24.3914C24.7384 36 25.0704 35.942 25.3914 35.859V32H21.3914V36ZM17.3914 28H21.3914V32H17.3914V28ZM25.3914 28H28.3914V32H25.3914V28ZM9.39142 28H13.3914V32H9.39142V28Z" fill="#CCD6DD"/>
 </svg>

@@ -14,7 +14,19 @@ body {
     position: relative;
     bottom: -70px;
     left: -15px;
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
+}
+
+.floating_title {
+    color: white;
+    background-color: rgb(36, 36, 36);
+    padding: 10px 30px;
+    width: 230px;
+    border-radius: 50px;
+}
+
+.floating_title img {
+    width: 50px;
 }
 
 .big_text {
