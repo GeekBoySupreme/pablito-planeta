@@ -8,8 +8,8 @@ async function showZodiac(sign) {
       '<div id="zodiac_content">\
                     <div class="col-lg-12">\
                         <button class="back_button button_1" onclick="goBack()"><h4><i class="fas fa-arrow-circle-left"></i><h4></button>\
-                        <button class="back_button" onclick="download_creative()"><h4><i class="fas fa-arrow-circle-down"></i> Download</h4></button>\
-                        <div class="card_zodiac_op ' +
+                        <a href="#" id="download-zodiac"><button class="back_button" onclick="download_creative()"><h4><i class="fas fa-arrow-circle-down"></i> Download</h4></button></a>\
+                        <div class="card-zodiac-op ' +
       database[index].theme +
       '">\
                             <div class="row">\
@@ -44,9 +44,9 @@ async function showZodiac(sign) {
                                     </div >\
 \
                                 <div class="col-lg-6">\
-                                    <h3 class="other_content"><img class="amulet_img" src="assets/img/' +
+                                    <h3 class="other_content">Amulet : <img class="amulet_img" src="assets/img/' +
       database[index].amulet_link +
-      '.svg"/> Amulet : <span class="element_tag">' +
+      '.svg"/> <span class="element_tag">' +
       database[index].amulet +
       '</span></h3>\
                                     <br />\
@@ -329,4 +329,34 @@ function goBack() {
         document.getElementById("result_container").style.display = "none";
     }, 300);
     
+}
+
+
+function download_creative() {
+
+    console.log("hello");
+    alert("Sorry, this feature is not working now :(");
+    // $(document).ready(function () {
+    //   var element = $("#card-zodiac-op"); // global variable
+    //   var getCanvas; // global variable
+
+    //   html2canvas(element, {
+    //     onrendered: function (canvas) {
+    //       $("#previewImage").append(canvas);
+    //       getCanvas = canvas;
+    //     },
+    //   });
+
+    //   $("#download-zodiac").on("click", function () {
+    //     var imgageData = getCanvas.toDataURL("image/png");
+    //     // Now browser starts downloading it instead of just showing it
+    //     var newData = imgageData.replace(
+    //       /^data:image\/png/,
+    //       "data:application/octet-stream"
+    //     );
+    //     $("#download_zodiac")
+    //       .attr("download", "yourzodiac.png")
+    //       .attr("href", newData);
+    //   });
+    // });
 }
