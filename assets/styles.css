@@ -7,6 +7,7 @@ body {
     /* overflow: hidden; */
 
     font-family: 'Nunito', sans-serif!important;
+    overflow-x: hidden;
 }
 
 .picture_block {
