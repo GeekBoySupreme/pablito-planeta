@@ -9,7 +9,7 @@ async function showZodiac(sign) {
       '<div id="zodiac_content">\
                     <div class="col-lg-12">\
                         <button class="back_button button_1" onclick="goBack()"><h4><i class="fas fa-arrow-circle-left"></i><h4></button>\
-                        <a target=_blank href="https://twitter.com/share?text=I am '+ article +' '+ sign +'. Check out your Zodiac story!&url=https://pablitoplaneta.space&hashtags=#myzodiac&via=@shuvam360&related=@shuvam360"><button class="back_button button_1"><h4><i class="fab fa-twitter"></i><h4></button><a/>\
+                        <a target=_blank href="https://twitter.com/share?text=I am '+ article +' '+ sign +'. Check out your Zodiac story 🛩️🔭&url=https://pablitoplaneta.space&hashtags=#myzodiac&via=@shuvam360&related=@shuvam360"><button class="back_button button_1"><h4><i class="fab fa-twitter"></i><h4></button><a/>\
                         <a href="#" id="download-zodiac"><button class="back_button" onclick="download_creative()"><h4><i class="fas fa-arrow-circle-down"></i> Download</h4></button></a>\
                         <div class="card-zodiac-op ' +
       database[index].theme +
