@@ -1,14 +1,14 @@
 async function showZodiac(sign) {
 
     var index = await getIndex(sign);
-    console.log(sign);
+    //console.log(sign);
 
 
     var html =
       '<div id="zodiac_content">\
                     <div class="col-lg-12">\
                         <button class="back_button button_1" onclick="goBack()"><h4><i class="fas fa-arrow-circle-left"></i><h4></button>\
-                        <button class="back_button button_1" onclick="goBack()"><h4><i class="fab fa-twitter"></i><h4></button>\
+                        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="I am a '+ sign +'. Check out your Zodiac story!" data-url="https://pablitoplaneta.space" data-via="shuvam360" data-hashtags="myzodiac" data-related="shuvam360" data-show-count="false"><button class="back_button button_1"><h4><i class="fab fa-twitter"></i><h4></button><a/>\
                         <a href="#" id="download-zodiac"><button class="back_button" onclick="download_creative()"><h4><i class="fas fa-arrow-circle-down"></i> Download</h4></button></a>\
                         <div class="card-zodiac-op ' +
       database[index].theme +
