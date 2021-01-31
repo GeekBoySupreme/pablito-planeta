@@ -8,6 +8,7 @@ async function showZodiac(sign) {
       '<div id="zodiac_content">\
                     <div class="col-lg-12">\
                         <button class="back_button button_1" onclick="goBack()"><h4><i class="fas fa-arrow-circle-left"></i><h4></button>\
+                        <button class="back_button button_1" onclick="goBack()"><h4><i class="fab fa-twitter"></i><h4></button>\
                         <a href="#" id="download-zodiac"><button class="back_button" onclick="download_creative()"><h4><i class="fas fa-arrow-circle-down"></i> Download</h4></button></a>\
                         <div class="card-zodiac-op ' +
       database[index].theme +
@@ -36,7 +37,7 @@ async function showZodiac(sign) {
       database[index].color +
       '</span></h3>\
                                     <br />\
-                                    <h3 class="other_content"><span class="color_tag"  style="' +
+                                    <h3 class="other_content">Your Google Font is <br/><span class="color_tag font_tag_too"  style="' +
       database[index].font_link +
       '">' +
       database[index].font +
