@@ -153,7 +153,7 @@ Pero, cariño, slow down a bit, I know you just want to launch your design, but 
     strength: "Brave. Independent. Assertive.",
     opportunities: "Selfish. Impulsive. Impatient.",
     video: "https://www.instagram.com/p/CJojWpBgGoU/",
-    font: "Classic & modern Playfair Display",
+    font: "The Classic Playfair Display",
     font_link: "font-family: '" + "Playfair Display" + "', serif;",
 
     theme: "twilight",
