@@ -63,7 +63,7 @@ async function showZodiac(sign) {
                                     <a target="blank" href="' +
       database[index].video +
       '"><h3 class="other_content"><span class="element_tag"><i class="fab fa-instagram"></i><i class="fas fa-long-arrow-alt-right"></i></span></h3></a>\
-                                    <img class="on_card_img" src="assets/img/Halfface.svg"/>\
+                                    <br/><br/><img class="on_card_img" src="assets/img/Halfface.svg"/>\
                                 </div>\
                             </div>\
                         </div>\
@@ -164,14 +164,14 @@ Pero, cariño, slow down a bit, I know you just want to launch your design, but 
     sign: "🐃 Taurus",
     nickname: "the Bull",
     description:
-      "Taurus, my big Bull, just hold on a bit until we let the spirits flow and describe your future.",
+      "Taurus, torito, let's gallop. Expect a year full of beautiful shades and compositions because you have an exquisite taste—you'll persist until you have everything looking sharp. But oh! Your patience will be tested in design reviews because changes are coming your way.",
     element: "Fire",
     amulet: "Blurred Backgrounds",
     amulet_link: "blurred_bg",
     color: "Banana Gold",
     strength: "Good taste. Patient, reliable. Persistent.",
     opportunities: "Possesive/Jealous. Inflexible.",
-    video: "",
+    video: "https://www.instagram.com/p/CJ6TMfCA8l-/",
     font: "The quirky & sexy, Work Sans",
     font_link: "font-family: '" + "Work Sans" + "', sans-serif;",
 
@@ -182,7 +182,7 @@ Pero, cariño, slow down a bit, I know you just want to launch your design, but 
     sign: "👫 Gemini",
     nickname: "the Twins",
     description:
-      "Gemini, my Twins, just hold on a bit until we let the spirits flow and describe your future.",
+      "Gemini, my little twins. In 2021 you'll use your many talents to design and create. With your youthful spirit, you'll turn the wireframe of your life into high fidelity. But, cariño. Why are you so nervous? What are you afraid of? We have to work on your confidence. Remember, you're witty and a little manipulative, and you can use that for good.",
     element: "Air",
     amulet: "Powerful Data visualizations",
     amulet_link: "data_viz",
@@ -190,8 +190,8 @@ Pero, cariño, slow down a bit, I know you just want to launch your design, but 
     strength: "Dynamic. Many talents. Likes games. Youthful. Lively",
     opportunities:
       "Nervous. Tense. Devious. Scheming. Manipulative. Mischievous. Two-faced.",
-    video: "",
-    font: "The joyful and fancy, Montserrat",
+    video: "https://www.instagram.com/p/CJ_12oZAxeb/",
+    font: "The joyful & fancy, Montserrat",
     font_link: "font-family: '" + "Montserrat" + "', sans-serif;",
 
     theme: "pink",
@@ -223,14 +223,15 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
     sign: "🦁 Leo",
     nickname: "the Lion",
     description:
-      "Leo, my lion, just hold on a bit until we let the spirits flow and describe your future.",
+      "Leo, you animal, let's hunt! This year, you aren't letting anything stand in the way of your success metrics. And you'll find new opportunities that will just click your primary buttons.\
+      So, as the fabulous queen that you are, stay strong... and generous.",
     element: "Fire",
     amulet: "Gradient Jigsaw Puzzle",
     amulet_link: "jigsaw_puzzle",
     color: "Tangerine Orange",
     strength: "Creative. Popular. Faithful. Broad-minded. Generous.",
     opportunities: "Egocentric. Too proud. Bossy. Dogmatic. Intolerant.",
-    video: "https://www.instagram.com/p/CJtR3Hmgnf5/",
+    video: "https://www.instagram.com/p/CKRZJ81gXiP/",
     font: "The friendly Roboto Slab",
     font_link: "font-family: '" + "Roboto Slab" + "', sans-serif;",
 
@@ -241,14 +242,15 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
     sign: "👧 Virgo",
     nickname: "the Virgin",
     description:
-      "Virgo, just hold on a bit until we let the spirits flow and describe your future.",
+      "To trust someone to deliver their KPIs, it's you, Virgo. You're a reliable maker!\
+      But, mi Cielo, sometimes you can be over-judgemental. I mean, not because it's called a design critique; you have to be so critical. But I know it's because you have high standards and I respect that!",
     element: "Earth",
     amulet: "Instant Film Camera",
     amulet_link: "instant_camera",
     color: "Naked Peach",
     strength: "Successful. Creative. Likes to please.",
     opportunities: "Obsessive, overcritical and perfectionist",
-    video: "",
+    video: "https://www.instagram.com/p/CKT5nhrgKLr/",
     font: "The geometric & pure, Poppins",
     font_link: "font-family: '" + "Poppins" + "', sans-serif;",
 
@@ -259,15 +261,17 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
     sign: "⚖️ Libra",
     nickname: "the Scales",
     description:
-      "Yo Libra, just hold on a bit until we let the spirits flow and describe your future.",
+      "Libra, bebé, let's balance.\
+      This year, you'll see clarity and order in your designs. And you'll be diplomatic and fair with every stakeholder.\
+      But, corazón, you can be a bit indecisive—you gotta stop switching your fonts every minute!",
     element: "Air",
     amulet: "Enamel Pin",
     amulet_link: "enamel_pin",
     color: "Peacock Blue",
     strength: "Adventurous. Lavish. Irresistible.",
     opportunities: "Indecisive. Self-Pitying. Non-Confrontational.",
-    video: "",
-    font: "The bold and beautiful, Space Mono",
+    video: "https://www.instagram.com/p/CKWcArrgN8N/",
+    font: "The bold, beautiful, Space Mono",
     font_link: "font-family: '" + "Space Mono" + "', monospace;",
 
     theme: "pink",
@@ -277,14 +281,16 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
     sign: "🦂 Scorpio",
     nickname: "Scorpion",
     description:
-      "Yo Scorpio, just hold on a bit until we let the spirits flow and describe your future.",
+      "Scorpio, you stinger, come over here.\
+      This year you won't hold back. With your determination, you'll make all your inventions a reality. And your energy will make others follow because you're a natural leader.\
+      But, mi Amor, try not to be so stubborn. You're so intense—me encanta!",
     element: "Water",
     amulet: "A book on Accessibility",
     amulet_link: "access_book",
     color: "Cherry Pop",
     strength: "Determined. Self-reliant. Powerful. Wise. Magnetic",
     opportunities: "Compulsive. Secretive. Jealous/resentful",
-    video: "",
+    video: "https://www.instagram.com/p/CJ9CKIMA8H3/",
     font: "The calligraphic and elegant, Eczar",
     font_link: "font-family: '" + "Eczar" + "', serif;",
 
@@ -295,15 +301,17 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
     sign: "🏹 Saggitarius",
     nickname: "the Archer",
     description:
-      "Yo Saggitarius, just hold on a bit until we let the spirits flow and describe your future. Btw, how's your mate Orion?",
+      "Sagittarius, cariño, ride with me!\
+      I love that you don't just see the pixels and the vectors; you perceive ideas with clarity because you're inteligente.\
+      But, ay Dios mío, you get bored so quickly, jumping from one project to the other, not being able to commit.",
     element: "Fire",
     amulet: "Big Wireless Headphones",
     amulet_link: "headphones",
     color: "Spicy Mustard",
     strength: "Open-minded. Achiever. Loving.",
     opportunities: "Insensitive. Cold. Too optimistic.",
-    video: "",
-    font: "The humanist and traditional, Proza Libre",
+    video: "https://www.instagram.com/p/CKOzu8HAjOn/",
+    font: "The humanist & traditional, Proza Libre",
     font_link: "font-family: '" + "Proza Libre" + "', sans-serif;",
 
     theme: "warm",
