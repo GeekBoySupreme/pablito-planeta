@@ -172,7 +172,7 @@ Pero, cariño, slow down a bit, I know you just want to launch your design, but 
     strength: "Good taste. Patient, reliable. Persistent.",
     opportunities: "Possesive/Jealous. Inflexible.",
     video: "https://www.instagram.com/p/CJ6TMfCA8l-/",
-    font: "The quirky, sexy, Work Sans",
+    font: "The quirky, Work Sans",
     font_link: "font-family: '" + "Work Sans" + "', sans-serif;",
 
     theme: "warm",
@@ -291,7 +291,7 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
     strength: "Determined. Self-reliant. Powerful. Wise. Magnetic",
     opportunities: "Compulsive. Secretive. Jealous/resentful",
     video: "https://www.instagram.com/p/CJ9CKIMA8H3/",
-    font: "The calligraphic, elegant, Eczar",
+    font: "Calligraphic, elegant, Eczar",
     font_link: "font-family: '" + "Eczar" + "', serif;",
 
     theme: "aqua",
