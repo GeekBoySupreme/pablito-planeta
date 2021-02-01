@@ -114,7 +114,7 @@ var database = [
     strength: "Sets trends. Innovative.",
     opportunities: "Unpredictable. Detached. Rebel.",
     video: "https://www.instagram.com/p/CJoL8NIg3hk",
-    font: "The playful but profound, Karla",
+    font: "The playful, profound, Karla",
     font_link: "font-family: '" + "Karla" + "', sans-serif;",
 
     theme: "aqua",
@@ -134,7 +134,7 @@ Pero, bebé, you have to keep focus, not be in the clouds as much, and say yes t
     strength: "Selfless. Imaginative. Passionate.",
     opportunities: "Escapist. Lives on the clouds. Weak-willed.",
     video: "https://www.instagram.com/p/CJq4EJ-gR0E/",
-    font: "The energetic and curvy, Rubik",
+    font: "Energetic & curvy, Rubik",
     font_link: "font-family: '" + "Rubik" + "', sans-serif;",
 
     theme: "aqua",
@@ -172,7 +172,7 @@ Pero, cariño, slow down a bit, I know you just want to launch your design, but 
     strength: "Good taste. Patient, reliable. Persistent.",
     opportunities: "Possesive/Jealous. Inflexible.",
     video: "https://www.instagram.com/p/CJ6TMfCA8l-/",
-    font: "The quirky & sexy, Work Sans",
+    font: "The quirky, sexy, Work Sans",
     font_link: "font-family: '" + "Work Sans" + "', sans-serif;",
 
     theme: "warm",
@@ -191,7 +191,7 @@ Pero, cariño, slow down a bit, I know you just want to launch your design, but 
     opportunities:
       "Nervous. Tense. Devious. Scheming. Manipulative. Mischievous. Two-faced.",
     video: "https://www.instagram.com/p/CJ_12oZAxeb/",
-    font: "The joyful & fancy, Montserrat",
+    font: "The joyful Montserrat",
     font_link: "font-family: '" + "Montserrat" + "', sans-serif;",
 
     theme: "pink",
@@ -213,7 +213,7 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
       "Sensitive. Practical. Cautious. Imaginative. Intuitive. Emotional.",
     opportunities: "Clingy, touchy and moody. Overemotional. Unable to let go.",
     video: "https://www.instagram.com/p/CJtR3Hmgnf5/",
-    font: "The pragmatic and flawless, Inter",
+    font: "The pragmatic Inter",
     font_link: "font-family: '" + "Inter" + "', sans-serif;",
 
     theme: "warm",
@@ -251,7 +251,7 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
     strength: "Successful. Creative. Likes to please.",
     opportunities: "Obsessive, overcritical and perfectionist",
     video: "https://www.instagram.com/p/CKT5nhrgKLr/",
-    font: "The geometric & pure, Poppins",
+    font: "The pure Poppins",
     font_link: "font-family: '" + "Poppins" + "', sans-serif;",
 
     theme: "pink",
@@ -271,7 +271,7 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
     strength: "Adventurous. Lavish. Irresistible.",
     opportunities: "Indecisive. Self-Pitying. Non-Confrontational.",
     video: "https://www.instagram.com/p/CKWcArrgN8N/",
-    font: "The bold, beautiful, Space Mono",
+    font: "The bold Space Mono",
     font_link: "font-family: '" + "Space Mono" + "', monospace;",
 
     theme: "pink",
@@ -291,7 +291,7 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
     strength: "Determined. Self-reliant. Powerful. Wise. Magnetic",
     opportunities: "Compulsive. Secretive. Jealous/resentful",
     video: "https://www.instagram.com/p/CJ9CKIMA8H3/",
-    font: "The calligraphic and elegant, Eczar",
+    font: "The calligraphic, elegant, Eczar",
     font_link: "font-family: '" + "Eczar" + "', serif;",
 
     theme: "aqua",
@@ -311,7 +311,7 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
     strength: "Open-minded. Achiever. Loving.",
     opportunities: "Insensitive. Cold. Too optimistic.",
     video: "https://www.instagram.com/p/CKOzu8HAjOn/",
-    font: "The humanist & traditional, Proza Libre",
+    font: "The humanist, Proza Libre",
     font_link: "font-family: '" + "Proza Libre" + "', sans-serif;",
 
     theme: "warm",
