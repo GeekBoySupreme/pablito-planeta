@@ -1,83 +1,83 @@
 async function showZodiac(sign) {
+  var index = await getIndex(sign);
+  //console.log(sign);
+  var article = await getArticle(sign);
 
-    var index = await getIndex(sign);
-    //console.log(sign);
-    var article = await getArticle(sign);
-
-
-    var html =
-      '<div id="zodiac_content">\
+  var html =
+    '<div id="zodiac_content">\
                     <div class="col-lg-12">\
                         <button class="back_button button_1" onclick="goBack()"><h4><i class="fas fa-arrow-circle-left"></i><h4></button>\
-                        <a target=_blank href="https://twitter.com/share?text=I am '+ article +' '+ sign +'. Check out your Zodiac story 🛩️🔭&url=https://pablitoplaneta.space&hashtags=#myzodiac&via=@shuvam360&related=@shuvam360"><button class="back_button button_1"><h4><i class="fab fa-twitter"></i> tweet<h4></button><a/>\
-                        <!-- <a href="#" id="download-zodiac"><button class="back_button" onclick="download_creative()"><h4><i class="fas fa-arrow-circle-down"></i> Download</h4></button></a>-->\
+                        <a target=_blank href="https://twitter.com/share?text=I am ' +
+    article +
+    " " +
+    sign +
+    '. Check out your Zodiac story 🛩️🔭&url=https://pablitoplaneta.space&hashtags=#myzodiac&via=@shuvam360&related=@shuvam360"><button class="back_button button_1"><h4><i class="fab fa-twitter"></i> tweet<h4></button><a/>\
+                        <a href="#" id="download-zodiac" style="display:none"><button class="back_button" onclick="download_creative()"><h4><i class="fas fa-arrow-circle-down"></i> Download</h4></button></a>\
                         <div class="card-zodiac-op ' +
-      database[index].theme +
-      '">\
+    database[index].theme +
+    '">\
                             <div class="row">\
                                 <div class="col-lg-6">\
                                     <h3 class="big_text_card">' +
-      database[index].sign +
-      '</h3>\
+    database[index].sign +
+    '</h3>\
                                     <h3 class="nickname_text">(nickname : ' +
-      database[index].nickname +
-      ')</h3>\
+    database[index].nickname +
+    ')</h3>\
                                     <br />\
                                     <h3 class="description_content">' +
-      (database[index].description || " ") +
-      '\
+    (database[index].description || " ") +
+    '\
                                     </h3>\
                                     <br/>\
                                     <h3 class="other_content"><span>Your Element is </span><span class="element_tag">' +
-      database[index].element +
-      '</span></h3>\
+    database[index].element +
+    '</span></h3>\
                                     <br />\
                                     <h3 class="other_content"><span>Your Color is </span><span class="color_tag ' +
-      database[index].color +
-      '">' +
-      database[index].color +
-      '</span></h3>\
+    database[index].color +
+    '">' +
+    database[index].color +
+    '</span></h3>\
                                     <br />\
                                     <h3 class="other_content">Your Google Font is <br/><span class="color_tag font_tag_too"  style="' +
-      database[index].font_link +
-      '">' +
-      database[index].font +
-      '</span></h3>\
+    database[index].font_link +
+    '">' +
+    database[index].font +
+    '</span></h3>\
                                     </div >\
 \
                                 <div class="col-lg-6">\
                                     <h3 class="other_content">Amulet : <img class="amulet_img" src="assets/img/' +
-      database[index].amulet_link +
-      '.svg"/> <span class="element_tag">' +
-      database[index].amulet +
-      '</span></h3>\
+    database[index].amulet_link +
+    '.svg"/> <span class="element_tag">' +
+    database[index].amulet +
+    '</span></h3>\
                                     <br />\
                                     <h3 class="other_content"><span>Strengths :  </span><span>' +
-      database[index].strength +
-      '</span></h3>\
+    database[index].strength +
+    '</span></h3>\
                                     <br />\
                                     <h3 class="other_content"><span>Weaknesses : </span><span>' +
-      database[index].opportunities +
-      '</span></h3>\
+    database[index].opportunities +
+    '</span></h3>\
                                     <br/>\
                                     <a target="blank" href="' +
-      database[index].video +
-      '"><h3 class="other_content"><span class="element_tag"><i class="fab fa-instagram"></i><i class="fas fa-long-arrow-alt-right"></i></span></h3></a>\
+    database[index].video +
+    '"><h3 class="other_content"><span class="element_tag"><i class="fab fa-instagram"></i><i class="fas fa-long-arrow-alt-right"></i></span></h3></a>\
                                     <br/><br/><img class="on_card_img" src="assets/img/Halfface.svg"/>\
                                 </div>\
                             </div>\
                         </div>\
                     </div>\
-                </div>'; 
-    
-    document.getElementById("result_container").innerHTML = html;
+                </div>';
 
-    setTimeout(function () {
-        document.getElementById("intro_panel").style.display = "none";
-        document.getElementById("result_container").style.display = "block";
-    }, 300);
-    
+  document.getElementById("result_container").innerHTML = html;
 
+  setTimeout(function () {
+    document.getElementById("intro_panel").style.display = "none";
+    document.getElementById("result_container").style.display = "block";
+  }, 300);
 }
 
 var database = [
@@ -318,64 +318,55 @@ But, Tesoro, we gotta talk about your mood. You can't be overly emotional about 
   },
 ];
 
-
 async function getIndex(string) {
-    var flag = 0;
-    for (var i = 0; i < database.length; i++) {
-        if (string == database[i].name) {
-            flag = i;
-        }
-            
+  var flag = 0;
+  for (var i = 0; i < database.length; i++) {
+    if (string == database[i].name) {
+      flag = i;
     }
+  }
 
-    return flag;
+  return flag;
 }
-
 
 function goBack() {
-
-    setTimeout(function () {
-        document.getElementById("intro_panel").style.display = "flex";
-        document.getElementById("result_container").style.display = "none";
-    }, 300);
-    
+  setTimeout(function () {
+    document.getElementById("intro_panel").style.display = "flex";
+    document.getElementById("result_container").style.display = "none";
+  }, 300);
 }
-
 
 function download_creative() {
+  console.log("hello");
+  alert("Sorry, this feature is not working now :(");
+  // $(document).ready(function () {
+  //   var element = $("#card-zodiac-op"); // global variable
+  //   var getCanvas; // global variable
 
-    console.log("hello");
-    alert("Sorry, this feature is not working now :(");
-    // $(document).ready(function () {
-    //   var element = $("#card-zodiac-op"); // global variable
-    //   var getCanvas; // global variable
+  //   html2canvas(element, {
+  //     onrendered: function (canvas) {
+  //       $("#previewImage").append(canvas);
+  //       getCanvas = canvas;
+  //     },
+  //   });
 
-    //   html2canvas(element, {
-    //     onrendered: function (canvas) {
-    //       $("#previewImage").append(canvas);
-    //       getCanvas = canvas;
-    //     },
-    //   });
-
-    //   $("#download-zodiac").on("click", function () {
-    //     var imgageData = getCanvas.toDataURL("image/png");
-    //     // Now browser starts downloading it instead of just showing it
-    //     var newData = imgageData.replace(
-    //       /^data:image\/png/,
-    //       "data:application/octet-stream"
-    //     );
-    //     $("#download_zodiac")
-    //       .attr("download", "yourzodiac.png")
-    //       .attr("href", newData);
-    //   });
-    // });
+  //   $("#download-zodiac").on("click", function () {
+  //     var imgageData = getCanvas.toDataURL("image/png");
+  //     // Now browser starts downloading it instead of just showing it
+  //     var newData = imgageData.replace(
+  //       /^data:image\/png/,
+  //       "data:application/octet-stream"
+  //     );
+  //     $("#download_zodiac")
+  //       .attr("download", "yourzodiac.png")
+  //       .attr("href", newData);
+  //   });
+  // });
 }
 
-
 function getArticle(value) {
-  var ret='a';
-  if(value == 'aquarius' || value == 'aries')
-    ret = 'an';
+  var ret = "a";
+  if (value == "aquarius" || value == "aries") ret = "an";
 
   return ret;
 }
